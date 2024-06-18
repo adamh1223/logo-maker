@@ -1,0 +1,21 @@
+{
+  "name": "logo-maker",
+  "version": "1.0.0",
+  "description": "![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest --verbose --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
