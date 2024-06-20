@@ -47,6 +47,7 @@ function init() {
     let svgShape;
 
     // Based on the type of object the user chooses, create the appropriate class
+    // the answers variable contains the answers
     switch (answers.shape) {
       case "Circle":
         svgShape = new Circle();
@@ -71,8 +72,10 @@ function init() {
     svg.setShape(svgShape);
     svg.setText(answers.text, answers.color);
 
+    //render the content
     const svgContent = svg.render();
 
+    //create the svg file, name it output.svg
     fs.writeFile("output.svg", svgContent, (err) => {
       if (err) {
         console.error("Error writing file:", err);
