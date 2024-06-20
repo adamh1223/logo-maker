@@ -2,7 +2,7 @@
 
 ## Description
 
-Welcome to Logo Maker! This CLI application creates a customized shape with text in a few short steps. When you type in node index in the terminal, you'll be asked 3 quick questions: what text would you like on the shape, what color, and what shape would you like to generate. When you've answered the questions, an svg file will be generated at the root level. You can open this with default browser or live server to see your generated shape! You can also bring this svg out of the project and use it elsewhere!
+Welcome to Logo Maker! This CLI application creates a customized shape with text in a few short steps. When you type in node index in the terminal, you'll be asked a few quick questions: what text would you like on the shape, what color, and what shape would you like to generate. When you've answered the questions, an svg file will be generated at the root level. You can open this with default browser or live server to see your generated shape! You can also bring this svg out of the project and use it elsewhere!
 
 ## Table of Contents
 
@@ -83,5 +83,7 @@ Built with:
 https://github.com/adamh1223/logo-maker
 
 ## Link to video demonstration
+
+https://vimeo.com/963728495?share=copy
 
 ### <p align="center">[Back to Top](#logo-maker)</p>
